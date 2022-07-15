@@ -1,8 +1,13 @@
 console.log('Hola Typescript');
 
-// comentario
+// comentario;
 
 /**
  * Comentario de documentación.
  * comentario multilínea.
  */
+function loQueMeDaLaGana() {
+  console.log('first');
+}
+
+loQueMeDaLaGana();

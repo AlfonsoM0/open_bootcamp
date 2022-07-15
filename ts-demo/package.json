@@ -6,6 +6,8 @@
   "scripts": {
     "tsNode": "cd src && ts-node index.ts",
     "start": "nodemon",
+    "eslint": "eslint",
+    "eslint:fix": "eslint --fix",
     "build": "tsc",
     "build:prod": "rimraf ./build && tsc",
     "start:prod": "npm run build:prod && node build/index.js"
@@ -19,6 +21,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
     "nodemon": "^2.0.19",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
