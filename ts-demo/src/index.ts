@@ -7,7 +7,10 @@ console.log('Hola Typescript');
  * comentario multilínea.
  */
 function loQueMeDaLaGana() {
-  console.log('first');
+  console.log('log');
+  console.info('info');
+  console.warn('warn');
+  console.error('error');
 }
 
 loQueMeDaLaGana();
