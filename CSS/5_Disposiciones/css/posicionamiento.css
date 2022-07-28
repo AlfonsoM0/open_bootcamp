@@ -1,0 +1,43 @@
+div {
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+/* Posicionamiento en relación al ajuste original. */
+.relative {
+  position: relative;
+  left: 50px;
+}
+
+/* Posicionado fijo en relación a la pantalla. Queda siempre fijo en el mismo lugar, independiente del scroll de pantalla. */
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: greenyellow;
+  z-index: 10; /* mientras más alto el avalor de z-index, se visualiza por encima de otros sobre los que se superponga. */
+}
+
+/* Posicionamiento en función del elemento padre que lo contiene */
+.absolute {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.relative.contenedor {
+  width: 300px;
+  height: 200px;
+  background-color: darkred;
+}
+
+/* sticky es una mezcla entre relativo y fijo */
+/* Se mueve con el scroll, pero se queda pegado en el borde para no irse de la pantalla. */
+/* Ideal para menues siempre visibles */
+.sticky {
+  position: sticky;
+  background-color: darkblue;
+  color: white;
+  z-index: 2;
+}

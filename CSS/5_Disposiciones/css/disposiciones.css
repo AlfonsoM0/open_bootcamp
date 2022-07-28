@@ -1,0 +1,21 @@
+.div-1,
+.div-2 {
+  background-color: aqua;
+  /* display: block; => por defecto. */
+}
+
+.span-1 {
+  background-color: antiquewhite;
+  /* display: inline; => por defecto. */
+}
+
+.span-2 {
+  background-color: antiquewhite;
+  /* display: inline; => por defecto. */
+  float: right;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
