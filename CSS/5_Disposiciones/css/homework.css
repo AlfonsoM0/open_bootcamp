@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-principal {
+  width: 100vw;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imagen-galeria {
+  width: 300px;
+}
