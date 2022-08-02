@@ -1,0 +1,31 @@
+.imput {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.imput[type='password'] {
+  color: red;
+}
+
+.input-modern {
+  border: none;
+  border-bottom: 1px solid #999;
+  outline: none;
+  padding: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.input-modern:focus {
+  border-bottom: 1px solid #151515;
+}
+
+.input-modern::placeholder {
+  color: rgb(208, 208, 208);
+}
+
+textarea {
+  resize: vertical;
+}
