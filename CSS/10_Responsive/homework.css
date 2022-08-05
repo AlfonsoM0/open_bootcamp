@@ -1,0 +1,17 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+}
+
+.element {
+  background-color: darkgoldenrod;
+  padding: 1px;
+  width: 10rem;
+}
+
+.principal {
+  background-color: darkcyan;
+  width: 5px;
+  height: 5px;
+}
